@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg justify-content-between">
+        <i class="bi bi-book-half"></i>
+        <div class="d-flex text-center">
+            <div class="dropdown mx-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="form-check form-switch m-auto">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+            </div>
+            <button class="btn dark_light">
+                <i class="bi bi-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="search">
+        <div class="mx-5">
+            <input type="words" class="form-control" id="search_word" onkeydown="search(this)"
+                placeholder="Search">
+        </div>
+    </section>
+
+    <section class="container-fluid main-content">
+        <section class="header d-flex justify-content-between">
+            <div class="flex-column">
+                <h1 class="word">Keyboard</h1>
+                <code class="pronouncation">testing</code>
+            </div>
+            <button class="btn">
+                <i class="bi bi-play-circle-fill"></i>
+            </button>
+        </section>
+        <div class="definitions">
+            <h6>noun</h6>
+            <i class="text-muted">Meaning</i>
+            <ul class="definition-bullets">
+                <li>testing lines</li>
+                <li>testing lines</li>
+                <li>testing lines</li>
+                <li>testing lines</li>
+            </ul>
+            <i class="text-muted me-2">Synonyms</i><a href="#">syn</a>
+            <h6>verb</h6>
+            <i class="text-muted">Meaning</i>
+            <ul class="definition-bullets">
+                <li>testing lines</li>
+                <li>testing lines</li>
+                <li>testing lines</li>
+                <li>testing lines</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="public/js/dict.js"></script>
+</body>
+
+</html>

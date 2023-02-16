@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: grey;
+    padding: 1rem;
+    i {
+        font-size: 1.5rem;
+    }
+
+    * {
+        margin-left: 1rem;
+    }
+
+    .dropdown .btn {
+        margin-top: .25rem;
+        background-color: white;
+        color: black;
+    }
+
+    .dark_light {
+        background-color: white;
+        border-radius: 50px;
+
+        .bi-moon {
+            margin: 0;
+        }
+    }
+}
+
+.search {
+    padding-top: 2rem;
+}
+
+.main-content {
+    padding: 3rem;
+
+    .header {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .pronouncation {
+            padding: 2rem;
+        }
+
+        .bi-play-circle-fill {
+            font-size: 3rem;
+        }
+    }
+
+
+    .definitions h6 {
+        margin-top: .5rem;
+    }
+}

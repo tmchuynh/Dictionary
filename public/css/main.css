@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: block;
+  justify-content: center;
+  align-items: center; }
+
+.navbar {
+  background-color: grey;
+  padding: 1rem; }
+  .navbar i {
+    font-size: 1.5rem; }
+  .navbar * {
+    margin-left: 1rem; }
+  .navbar .dropdown .btn {
+    margin-top: .25rem;
+    background-color: white;
+    color: black; }
+  .navbar .dark_light {
+    background-color: white;
+    border-radius: 50px; }
+    .navbar .dark_light .bi-moon {
+      margin: 0; }
+
+.search {
+  padding-top: 2rem; }
+
+.main-content {
+  padding: 3rem; }
+  .main-content .header {
+    justify-content: center;
+    align-items: center;
+    margin: auto; }
+    .main-content .header .pronouncation {
+      padding: 2rem; }
+    .main-content .header .bi-play-circle-fill {
+      font-size: 3rem; }
+  .main-content .definitions h6 {
+    margin-top: .5rem; }
