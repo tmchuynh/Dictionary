@@ -29,7 +29,10 @@ body {
   padding-top: 2rem; }
 
 .main-content {
-  padding: 3rem; }
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .main-content .header {
     justify-content: center;
     align-items: center;
