@@ -5,8 +5,6 @@ function search(ele) {
     }
 }
 
-
-
 function getData(searchInput) {
     $.getJSON('https://api.dictionaryapi.dev/api/v2/entries/en/' + searchInput, function(data) {
         console.log(data);
@@ -37,16 +35,6 @@ function displayData(data) {
     code.textContent = data[0].phonetics[1].text;
     flex_column.appendChild(code);
 
-    var play = document.createElement('button');
-    play.classList.add("btn");
-    play.addEventListener("click", function() {
-        playAudio(data[0].phonetics[0].audio);
-    })
-    var play_icon = document.createElement('i');
-    play_icon.classList.add("bi");
-    play_icon.classList.add("bi-play-circle-fill");
-    play.appendChild(play_icon);
-    section.appendChild(play);
 
     var definitions = document.createElement('div');
     definitions.classList.add("definitions");
